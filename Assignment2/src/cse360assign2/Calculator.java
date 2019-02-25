@@ -16,7 +16,7 @@ public class Calculator {
 	public Calculator () {
 		total = 0;  
 	}
-	
+	 
 	/**
 	 * Gets the current total 
 	 * 
