@@ -36,7 +36,7 @@ public class Calculator {
 	public void add (int value) {
 		this.total += value;
 		String addStr = Integer.toString(value);
-		this.history += addStr;
+		this.history += "+ " + addStr + " ";
 	}
 	
 	/**
@@ -47,7 +47,7 @@ public class Calculator {
 	public void subtract (int value) {
 		this.total -=  value;
 		String subStr = Integer.toString(value);
-		this.history += subStr;
+		this.history += "- " + subStr + " ";
 	}
 	
 	/**
@@ -58,7 +58,7 @@ public class Calculator {
 	public void multiply (int value) {
 		this.total *= value;
 		String mulStr = Integer.toString(value);
-		this.history += mulStr;
+		this.history += "* " + mulStr + " ";
 	}
 	
 	/**
@@ -72,7 +72,7 @@ public class Calculator {
 		else
 			this.total /= value; 
 		String divStr = Integer.toString(value);
-		this.history += divStr;
+		this.history += "/ " + divStr + " ";
 	}
 	
 	/**
