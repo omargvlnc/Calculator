@@ -1,6 +1,6 @@
 /* Name: Omar Valencia
  * Class ID: 573
- * Assignment 2: First version of Calculator class which has methods to perform 
+ * Assignment 2: Second version of Calculator class, which has methods to perform 
  * basic operations, such as: addition, subtraction, multiplication, and division.
  */
 
@@ -23,7 +23,7 @@ public class Calculator {
 	 * @return the current total
 	 */
 	public int getTotal () {
-		return 0;
+		return this.total;
 	}
 	
 	/**
@@ -32,7 +32,7 @@ public class Calculator {
 	 * @param value	the value to be added to the total
 	 */
 	public void add (int value) {
-		
+		this.total += value;
 	}
 	
 	/**
@@ -41,7 +41,7 @@ public class Calculator {
 	 * @param value the value to be subtracted from the total
 	 */
 	public void subtract (int value) {
-		
+		this.total -=  value;
 	}
 	
 	/**
@@ -50,7 +50,7 @@ public class Calculator {
 	 * @param value the value to divide the total by
 	 */
 	public void multiply (int value) {
-		
+		this.total *= value;
 	}
 	
 	/**
@@ -59,7 +59,7 @@ public class Calculator {
 	 * @param value the value to multiply the total by
 	 */
 	public void divide (int value) {
-		
+		this.total /= value;
 	}
 	
 	/**
