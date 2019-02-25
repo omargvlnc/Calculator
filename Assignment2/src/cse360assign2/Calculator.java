@@ -1,6 +1,6 @@
 /* Name: Omar Valencia
  * Class ID: 573
- * Assignment 2: Second version of Calculator class, which has methods to perform 
+ * Assignment 2: Third version of Calculator class, which has methods to perform 
  * basic operations, such as: addition, subtraction, multiplication, and division.
  */
 
